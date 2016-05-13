@@ -1,11 +1,6 @@
 'use strict'
-module.exports = plugin
+module.exports = (mos, md) => Object.assign(mos.scope, require('./lib')(md))
 
-const m = require('markdownscript')
-const reserved = require('reserved-words')
-
-function plugin (markdown) {
-  const scope = { m }
-  Object.keys(m).filter(key => !reserved.check(key, 'next')).forEach(key => { scope[key] = m[key] })
-  return scope
+module.exports.attributes = {
+  pkg: require('./package.json'),
 }
