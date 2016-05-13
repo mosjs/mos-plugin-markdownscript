@@ -3,7 +3,8 @@
   "version": "0.0.0-placeholder",
   "description": "A [mos](https://github.com/zkochan/mos) plugin that adds markownscript helpers to the markdown scope",
   "files": [
-    "index.js"
+    "index.js",
+    "lib/"
   ],
   "main": "index.js",
   "preferDev": true,
