@@ -1,7 +1,7 @@
 {
   "name": "mos-plugin-markdownscript",
   "version": "0.0.0-placeholder",
-  "description": "A [mos](https://github.com/zkochan/mos) plugin that adds markownscript helpers to the markdown scope",
+  "description": "A [mos](https://github.com/mosjs/mos) plugin that adds markownscript helpers to the markdown scope",
   "files": [
     "index.js",
     "lib/"
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zkochan/mos-plugin-markdownscript"
+    "url": "https://github.com/mosjs/mos-plugin-markdownscript"
   },
   "keywords": [
     "mos-plugin",
@@ -39,9 +39,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zkochan/mos-plugin-markdownscript/issues"
+    "url": "https://github.com/mosjs/mos-plugin-markdownscript/issues"
   },
-  "homepage": "https://github.com/zkochan/mos-plugin-markdownscript#readme",
+  "homepage": "https://github.com/mosjs/mos-plugin-markdownscript#readme",
   "dependencies": {
     "markdownscript": "^1.1.0",
     "reserved-words": "^0.1.1"
