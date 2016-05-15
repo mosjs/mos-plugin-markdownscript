@@ -1,8 +1,8 @@
-<!--@'# ' + package.name-->
+<!--@h1([pkg.name])-->
 # mos-plugin-markdownscript
 <!--/@-->
 
-<!--@'> ' + package.description-->
+<!--@'> ' + pkg.description-->
 > A [mos](https://github.com/zkochan/mos) plugin that adds markownscript helpers to the markdown scope
 <!--/@-->
 
@@ -10,21 +10,15 @@
 [![NPM version](https://img.shields.io/npm/v/mos-plugin-markdownscript.svg?style=flat-square)](https://www.npmjs.com/package/mos-plugin-markdownscript) [![Build status for master](https://img.shields.io/travis/zkochan/mos-plugin-markdownscript/master.svg?style=flat-square)](https://travis-ci.org/zkochan/mos-plugin-markdownscript) [![Test coverage for master](https://img.shields.io/coveralls/zkochan/mos-plugin-markdownscript/master.svg?style=flat-square)](https://coveralls.io/r/zkochan/mos-plugin-markdownscript?branch=master)
 <!--/@-->
 
-<!--@installation()-->
 ## Installation
 
-This module is installed via npm:
-
 ```sh
-npm install mos-plugin-markdownscript --save
+npm i -D mos mos-plugin-markdownscript
 ```
-<!--/@-->
 
-<!--@license()-->
 ## License
 
 [MIT](./LICENSE) © [Zoltan Kochan](http://kochan.io)
-<!--/@-->
 
 * * *
 
