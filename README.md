@@ -13,7 +13,7 @@
 ## Installation
 
 ```sh
-npm i -D mos mos-plugin-markdownscript
+npm i -D mos-plugin-markdownscript
 ```
 
 ## License
