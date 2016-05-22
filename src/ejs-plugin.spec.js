@@ -1,9 +1,7 @@
-'use strict'
-const describe = require('mocha').describe
-const it = require('mocha').it
-const expect = require('chai').expect
+import {describe, it} from 'mocha'
+import {expect} from 'chai'
 
-const markdownscriptPlugin = require('.')
+import markdownscriptPlugin from './ejs-plugin'
 
 describe('mos-plugin-markdownscript', () => {
   it('should extend markdown scope with markdownscript helpers', () => {
